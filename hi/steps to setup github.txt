@@ -1,0 +1,109 @@
+C:\Users\welcome>f:
+
+F:\GitHub>git init
+Initialized empty Git repository in F:/GitHub/.git/
+
+F:\GitHub>git branch -M main
+
+F:\GitHub>git remote add origin https://github.com/PT1998P/FIRSTDEMO.git
+
+F:\GitHub>git add .
+
+F:\GitHub>git commit -m "myFirstGit commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'welcome@DESKTOP-N5LIAK6.(none)')
+
+F:\GitHub>pt310320@gmail.com
+'pt310320@gmail.com' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\GitHub>git config --global user.email "pt310320@gmail.com"
+
+F:\GitHub>git config --global user.name "pt1998p"
+
+F:\GitHub>git config --global user.name "PT1998P"
+
+F:\GitHub>git commit -m "myFirstGit commit"
+[main (root-commit) 86d98ca] myFirstGit commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hi/pradyumn.txt
+
+F:\GitHub>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 257 bytes | 128.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/PT1998P/FIRSTDEMO.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>
+F:\GitHub>git add .
+
+F:\GitHub>git commit -m "second commit"
+[main 389948b] second commit
+ 1 file changed, 1 insertion(+)
+
+F:\GitHub>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Writing objects: 100% (4/4), 294 bytes | 98.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/PT1998P/FIRSTDEMO.git
+   86d98ca..389948b  main -> main
+branch 'main' set up to track 'origin/main'.
+
+F:\GitHub>git add .
+
+F:\GitHub>git commit -m"third commit"
+[main 4680467] third commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hi/hello.txt
+
+F:\GitHub>git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 321 bytes | 107.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/PT1998P/FIRSTDEMO.git
+   389948b..4680467  main -> main
+branch 'main' set up to track 'origin/main'.
+
+F:\GitHub>git add .
+
+F:\GitHub>git commit -m "third commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+F:\GitHub>git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+F:\GitHub>
